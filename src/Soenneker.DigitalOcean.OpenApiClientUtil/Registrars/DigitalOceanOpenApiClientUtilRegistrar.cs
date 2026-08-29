@@ -13,6 +13,8 @@ public static class DigitalOceanOpenApiClientUtilRegistrar
     /// <summary>
     /// Adds <see cref="DigitalOceanOpenApiClientUtil"/> as a singleton service. <para/>
     /// </summary>
+    /// <param name="services">Service collection that receives the registration.</param>
+    /// <returns>The same service collection, so additional registrations can be chained.</returns>
     public static IServiceCollection AddDigitalOceanOpenApiClientUtilAsSingleton(this IServiceCollection services)
     {
         services.AddDigitalOceanOpenApiHttpClientAsSingleton()
@@ -24,6 +26,8 @@ public static class DigitalOceanOpenApiClientUtilRegistrar
     /// <summary>
     /// Adds <see cref="DigitalOceanOpenApiClientUtil"/> as a scoped service. <para/>
     /// </summary>
+    /// <param name="services">Service collection that receives the registration.</param>
+    /// <returns>The same service collection, so additional registrations can be chained.</returns>
     public static IServiceCollection AddDigitalOceanOpenApiClientUtilAsScoped(this IServiceCollection services)
     {
         services.AddDigitalOceanOpenApiHttpClientAsSingleton()
