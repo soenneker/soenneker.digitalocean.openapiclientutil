@@ -14,7 +14,6 @@ using Soenneker.Utils.AsyncSingleton;
 
 namespace Soenneker.DigitalOcean.OpenApiClientUtil;
 
-/// <inheritdoc cref="IDigitalOceanOpenApiClientUtil"/>
 public sealed class DigitalOceanOpenApiClientUtil : IDigitalOceanOpenApiClientUtil
 {
     private readonly AsyncSingleton<DigitalOceanOpenApiClient> _client;
