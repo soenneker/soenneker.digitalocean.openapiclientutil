@@ -5,7 +5,7 @@
 
 # Soenneker.DigitalOcean.OpenApiClientUtil
 
-Provides a dependency-injection-friendly, cached instance of the generated DigitalOcean API client.
+Provides a lazily created, cached DigitalOcean API client backed by the configured DigitalOcean HTTP provider.
 
 ## Installation
 
