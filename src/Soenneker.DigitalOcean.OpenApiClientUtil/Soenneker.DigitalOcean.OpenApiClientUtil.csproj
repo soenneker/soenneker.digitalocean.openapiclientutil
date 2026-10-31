@@ -47,6 +47,6 @@
 
     <ItemGroup>
         <PackageReference Include="Soenneker.DigitalOcean.HttpClients" Version="11.0.91" />
-        <PackageReference Include="Soenneker.DigitalOcean.OpenApiClient" Version="11.0.66" />
+        <PackageReference Include="Soenneker.DigitalOcean.OpenApiClient" Version="11.0.67" />
     </ItemGroup>
 </Project>
